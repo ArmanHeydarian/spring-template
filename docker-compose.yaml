@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  technical-test:
+    container_name:  policy-service
+    build: .
+    image: policy-service-img
+    ports:
+      - "8080:8080"
